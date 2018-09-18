@@ -22,11 +22,12 @@ class Book
         title = bookTitle;
     }
 
+    //satisfies 2.83
     public String getAuthor()
     {
         return author;
     }
-    
+    //satisfies 2.83
     public String getTitle()
     {
         return title;

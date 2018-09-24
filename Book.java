@@ -65,7 +65,7 @@ class Book
         
         if (refNumber.length() == 0)
             System.out.println("Ref Number: " + "ZZZ" );
-            else
+        else
             System.out.println("Ref Number: " + refNumber);
     }
     
@@ -78,6 +78,11 @@ class Book
     
     public void setRefNumber(String ref)
     {
-        refNumber = ref;
+        if (ref.length() >= 3){
+            refNumber = ref;
+        }
+        else if (ref.length() < 3){
+            System.out.println("Ref Number must have at least 3 characters");
+        }
     }
 }

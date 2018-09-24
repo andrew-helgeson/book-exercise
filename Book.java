@@ -34,4 +34,16 @@ class Book
     }
     
     
+    //satisfies 2.84
+    public void printAuthor()
+    {
+        System.out.println(author);
+    }
+    
+    public void printTitle()
+    {
+        System.out.println(title);
+    }
+    
+    
 }
